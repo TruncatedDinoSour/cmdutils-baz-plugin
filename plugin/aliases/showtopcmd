@@ -1,0 +1,1 @@
+fc -l 1 | \$__BASH_BIN_DIR/awk '{CMD[\$2]++;count++;}END { for (a in CMD)print CMD[a] \" \" CMD[a]/count*100 \"% \" a;}' | \$__BASH_CORE_BIN_DIR/grep -v './' | \$__BASH_BIN_DIR/column -c3 -s ' ' -t | \$__BASH_BIN_DIR/sort -nr | \$__BASH_BIN_DIR/nl | \$__BASH_BIN_DIR/head -n
