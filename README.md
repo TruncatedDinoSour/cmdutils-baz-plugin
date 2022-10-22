@@ -17,3 +17,4 @@ $ baz install git 'https://ari-web.xyz/gh/cmdutils-baz-plugin'
 - `showtopcmd` -- Show top `n` ammount of commands
 - `beep` -- Beep
 - `rshell` -- Reset shell
+- `bashmark` -- Benchmark a command
