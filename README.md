@@ -1,3 +1,4 @@
+# This repository has been migrated to the self-hosted ari-web Forgejo instance: <https://git.ari.lt/ari/cmdutils-baz-plugin>
 # Baz plugin: cmdutils-baz-plugin
 
 > Baz plugin for adding more command line utilities
